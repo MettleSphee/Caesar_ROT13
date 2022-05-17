@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<!--link rel="stylesheet" href="style.css"-->
+	</head>
+	<body style="width: 500px;">
+	
+	<br>text:<input type="text", id="txt", pattern="[a-zA-Z]", required, autofocus;/>
+	<br><br>key: <input type="number", id="key", required, value="0";/><br><br>
+	<input type="submit" value="Encode w/ key" onclick="cesar_encode()"/>
+	<input type="submit" value="Decode w/ key" onclick="cesar_decode()"/>
+	<input type="submit" value="Bruteforce" onclick="cesar_bruteforce()"/>
+	<br><br>
+	<label for="result">result: </label><input type="textbox", name="result"/>
+	<br><br>
+	<table>
+	<tr> <th>Key</th><th>Value</th></tr>
+	<tr> <td>01</td> <td><input type="textbox", id="1"  </td></tr>
+	<tr> <td>02</td> <td><input type="textbox", id="2"  </td></tr>
+	<tr> <td>03</td> <td><input type="textbox", id="3"  </td></tr>
+	<tr> <td>04</td> <td><input type="textbox", id="4"  </td></tr>
+	<tr> <td>05</td> <td><input type="textbox", id="5"  </td></tr>
+	<tr> <td>06</td> <td><input type="textbox", id="6"  </td></tr>
+	<tr> <td>07</td> <td><input type="textbox", id="7"  </td></tr>
+	<tr> <td>08</td> <td><input type="textbox", id="8"  </td></tr>
+	<tr> <td>09</td> <td><input type="textbox", id="9"  </td></tr>
+	<tr> <td>10</td> <td><input type="textbox", id="10" </td></tr>
+	<tr> <td>11</td> <td><input type="textbox", id="11" </td></tr>
+	<tr> <td>12</td> <td><input type="textbox", id="12" </td></tr>
+	<tr> <td>13</td> <td><input type="textbox", id="13" </td></tr>
+	<tr> <td>14</td> <td><input type="textbox", id="14" </td></tr>
+	<tr> <td>15</td> <td><input type="textbox", id="15" </td></tr>
+	<tr> <td>16</td> <td><input type="textbox", id="16" </td></tr>
+	<tr> <td>17</td> <td><input type="textbox", id="17" </td></tr>
+	<tr> <td>18</td> <td><input type="textbox", id="18" </td></tr>
+	<tr> <td>19</td> <td><input type="textbox", id="19" </td></tr>
+	<tr> <td>20</td> <td><input type="textbox", id="20" </td></tr>
+	<tr> <td>21</td> <td><input type="textbox", id="21" </td></tr>
+	<tr> <td>22</td> <td><input type="textbox", id="22" </td></tr>
+	<tr> <td>23</td> <td><input type="textbox", id="23" </td></tr>
+	<tr> <td>24</td> <td><input type="textbox", id="24" </td></tr>
+	<tr> <td>25</td> <td><input type="textbox", id="25" </td></tr>
+	</table>
+		<!--input type='file' class='file'/-->
+	<script src='cesar.js'></script>
+	</body>
+</html>
